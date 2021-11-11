@@ -22,8 +22,15 @@ const Hero = (props) => (
         Cloud Computing and DevOps field.{" "}
       </SectionText>
 
-      <Button onClick={() => (window.location = "https://google.com")}>
-        Learn more
+      <Button
+        target="_blank"
+        onClick={() => {
+          window.open(
+            "https://drive.google.com/file/d/1TvEKdFEtz8D-q72uDC_xn_Oc0G504AG_/view?usp=sharing"
+          );
+        }}
+      >
+        See my CV
       </Button>
     </LeftSection>
   </Section>

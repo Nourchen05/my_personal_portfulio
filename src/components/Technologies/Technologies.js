@@ -21,7 +21,7 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of technologies in the web development world From
-      Back-end to Design.
+      Back-end to Front-end. I'm also pationate about Docker and Kubernetes.
     </SectionText>
     <List>
       <ListItem>
@@ -29,8 +29,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+            React.js <br />
+            Redux <br />
+            Styled components
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -39,8 +40,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js and databases
+            Node.js <br />
+            Express.js <br />
+            MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -49,8 +51,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Deployment</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Docker and Kubernetes
+            GitHub <br />
+            Docker <br />
+            Kubernetes
           </ListParagraph>
         </ListContainer>
       </ListItem>
