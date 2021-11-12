@@ -4,14 +4,16 @@ import {
   Section,
   SectionText,
   SectionTitle,
+  SectionDivider,
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 //import { SectionText } from "../../styles/GlobalComponents/index";
 
 const Hero = (props) => (
-  <Section>
+  <Section row nopadding>
     <LeftSection>
+      <SectionDivider />
       <SectionTitle main center>
         Hi There, I'm <br />
         Nourchen Noamen
@@ -26,7 +28,7 @@ const Hero = (props) => (
         target="_blank"
         onClick={() => {
           window.open(
-            "https://drive.google.com/file/d/1TvEKdFEtz8D-q72uDC_xn_Oc0G504AG_/view?usp=sharing"
+            "https://drive.google.com/file/d/1jv8xf9uLwRBb_czRH8WGi9IBh1Iay6zv/view?usp=sharing"
           );
         }}
       >

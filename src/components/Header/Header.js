@@ -50,6 +50,11 @@ const Header = () => (
           <NavLink>About</NavLink>
         </Link>
       </li>
+      <li>
+        <Link href="#cert">
+          <NavLink>Certificates</NavLink>
+        </Link>
+      </li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/Nourchen05" target="_blank">

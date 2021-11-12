@@ -65,6 +65,10 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider />
+      <br />
+      <br />
+      <br />
       <SectionTitle>About me</SectionTitle>
       <SectionText>
         I have passed through several schools and universities. I learned in

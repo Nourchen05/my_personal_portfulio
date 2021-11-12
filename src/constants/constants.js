@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "Weather App",
     description:
-      "A react weather app that displays weather infromations from OpenWeatherMap API",
+      "A react weather app that displays weather infromations from OpenWeatherMap API.",
     image: "/images/3.png",
     tags: ["React", "Saas", "OpenWeatherMap API", "Docker"],
     source: "https://github.com/Nourchen05/Weather-React-App",
@@ -33,7 +33,7 @@ export const projects = [
   {
     title: "CoCar Project",
     description:
-      "CoCar is a carpooling full stack application designed for poeple to help each other get more involved in their community and cities.",
+      "CoCar is a carpooling app designed for poeple to help each other get more involved in their cities.",
     image: "/images/4.png",
     tags: ["React", "Node JS", "Express JS", "Mongo DB"],
     source: "https://github.com/Nourchen05/Projet_covoiturage_last_version",

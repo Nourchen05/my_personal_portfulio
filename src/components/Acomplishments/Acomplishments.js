@@ -15,7 +15,13 @@ const Acomplishments = () => {
   const [sliderRef, setSliderRef] = useState(null);
 
   return (
-    <Section margin="auto" maxWidth="1280px" padding="50px 70px" inverse>
+    <Section
+      margin="auto"
+      maxWidth="1280px"
+      padding="30px 110px"
+      inverse
+      id="cert"
+    >
       <Row justify="space-between" margin="1rem" wrap="wrap">
         <Heading width="auto" inverse>
           Cetificates
@@ -42,7 +48,14 @@ const Acomplishments = () => {
             >
               {el.description}
             </TextWrapper>
-            <CardButton>Learn More</CardButton>
+            <CardButton
+              target="_blank"
+              onClick={() => {
+                window.open(el.link);
+              }}
+            >
+              Learn More
+            </CardButton>
           </ImageWrapper>
         ))}
       </ReviewSlider>

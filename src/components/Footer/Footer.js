@@ -35,7 +35,9 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Every bug is a challenge</Slogan>
+          <Slogan>
+            “Imagination is more important than knowledge.” — Albert Einstein
+          </Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/Nourchen05" target="_blank">
