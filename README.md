@@ -1,12 +1,16 @@
 ## Personal Portfolio
 
-![Portfolio Website](https:...)
+
+
+https://user-images.githubusercontent.com/76560618/141583824-4272b86d-3ba8-41ac-b1ca-755973df6112.mp4
+
+
 
 # Start the project
 
 Download the project, decompress it and open the terminal.
 Inside the project, write:
 
-npm install
+  $npm install
 
-npm run dev
+  $npm run dev
